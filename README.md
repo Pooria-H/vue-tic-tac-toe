@@ -1,18 +1,16 @@
-# vue-tic-tac-toe
+# Tic-tac-toe Game made via Vue.js
 
-> A Vue.js project
+![Tic-tac-toe vue.js](https://raw.githubusercontent.com/Pooria-H/vue-tic-tac-toe/master/screenshot.png)
 
-## Build Setup
+------
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Setup
 
-# build for production with minification
-npm run build
-```
+1. Run `npm i` once to install packages.
+2. Run `npm run serve` for development or `npm run build` for production.
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+### Links
+- [Vue.js documentation](https://vuejs.org/v2/guide/)
+- [Vue CLI documentation](https://cli.vuejs.org/guide/)
