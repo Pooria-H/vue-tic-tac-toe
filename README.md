@@ -3,7 +3,11 @@
 ![Tic-tac-toe vue.js](https://raw.githubusercontent.com/Pooria-H/vue-tic-tac-toe/master/screenshot.png)
 
 
-[**Demo**](https://pooria-h.github.io/vue-tic-tac-toe/)
+<a href="https://pooria-h.github.io/vue-tic-tac-toe/" target="_blank">
+    <b>
+        Demo
+    </b>
+</a>
 
 ------
 
