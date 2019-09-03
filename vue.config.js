@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/vue-tic-tac-toe/'
+  publicPath: '/Vue-TicTacToe/'
 }
