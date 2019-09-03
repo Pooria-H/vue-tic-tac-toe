@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import cell from './components/cell';
+import cell from './cell';
 
 export default {
     name: 'board',
