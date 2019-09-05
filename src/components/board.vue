@@ -79,6 +79,7 @@ export default {
             );
 
             this.checkIfWeHaveAWinner();
+            this.checkIfGameIsDraw();
         },
         checkIfWeHaveAWinner() {
             this.winPatterns.forEach((arr, index) => {
@@ -100,6 +101,12 @@ export default {
                     this.$emit('gameFinished', this.winner);
                 }
             });
+        },
+        checkIfGameIsDraw() {
+            if (this.numberOfTurn === 9 && this.winner === '') {
+                this.$emit('gameFinished', null);
+                this.updateInfoText('');
+            }
         },
         resetBoard() {
             this.data = ['reserved', '', '', '', '', '', '', '', '', ''];
